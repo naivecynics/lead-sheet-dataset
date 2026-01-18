@@ -42,7 +42,7 @@ def split_file(path):
     return path[:-len(base)-1], filename, extension
 
 
-def proc(xml_list, index=0):
+def proc(xml_list, queue, index=0):
     num_xml = len(xml_list)
 
     if not os.path.exists(log_dir):
@@ -140,7 +140,7 @@ if __name__ == '__main__':
         st = process_idx * amount_batch
         ed = min(st+amount_batch, amount)
         print('ps - %d [from %d to %d]' % (process_idx, st, ed))
-        processes.append(mp.Process(target=proc, args=(xml_list[st:ed], process_idx)))
+        processes.append(mp.Process(target=proc, args=(xml_list[st:ed], queue, process_idx)))
         processes[-1].start()
 
     time.sleep(5)

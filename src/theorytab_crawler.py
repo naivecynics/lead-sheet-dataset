@@ -10,7 +10,7 @@ website = 'https://www.hooktheory.com'
 base_url = website + '/theorytab/artists/'
 sleep_time = 0.11
 # alphabet_list = string.ascii_lowercase
-alphabet_list = 'x'
+alphabet_list = string.ascii_lowercase
 root_dir = '../datasets'
 root_xml = '../datasets/xml'
 

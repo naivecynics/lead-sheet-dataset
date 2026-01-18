@@ -1,0 +1,4 @@
+[2] (1/6)[2/2] x/xyconstant/white-noise/chorus.xml  -  Cannot get beat timings to quantize the piano roll.
+https://www.hooktheory.com/theorytab/view/xyconstant/white-noise
+[2] (3/6)[3/4] x/xxxtentacion/orlando/chorus.xml  -  Cannot get beat timings to quantize the piano roll.
+https://www.hooktheory.com/theorytab/view/xxxtentacion/orlando
